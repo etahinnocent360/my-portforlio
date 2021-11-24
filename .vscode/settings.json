@@ -3,5 +3,6 @@
     "editor.formatOnType": true,
     "cSpell.words": [
         "NJENWEI"
-    ]
+    ],
+    "liveServer.settings.port": 5502
 }
