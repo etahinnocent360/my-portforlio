@@ -386,25 +386,34 @@
                      <p>My inbox is always open I'll try my best to get back to you!</p>
                   </div>
                </div>
+               <form action="https://formspree.io/f/xpzbagez" method="post" id="my-form" >
                <div class="row space-between">
                   <div class="col-6">
-                     <input type="text" class="form-control" name="" placeholder="Name" />
+                     <input type="text" id ="name" class="form-control" name="First name" placeholder="first name" required/>
+                  </div>
+                   <div class="col-6">
+                     <input type="text" id ="name" class="form-control" name="Last name" placeholder="last name" />
                   </div>
                   <div class="col-6">
-                     <input type="text" class="form-control" name="" placeholder="Email" />
+                     <input type="email" id="email" class="form-control" name="email" placeholder="Email" required/>
+                  </div>
+                   <div class="col-6">
+                     <input type="number" id ="number" class="form-control" name="number" placeholder="your phone number" required/>
                   </div>
                </div>
                <div class="row">
                   <div class="col-12">
-                     <textarea class="form-control" placeholder="Your Message"></textarea>
+                     <textarea name="message" id ="message" class="form-control" placeholder="Your Message"></textarea>
                   </div>
                </div>
                <div class="row">
                   <div class="button btn">
-                     <a href="#">Get In Touch</a>
+                   <button type="submit"><a>Get In Touch</a></button>  
                   </div>
                </div>
+            </form>
             </div>
+            <div class="status" id="status"></div>
          </div>
       </div>
    </section>
